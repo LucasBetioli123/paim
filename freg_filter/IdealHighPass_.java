@@ -23,7 +23,7 @@ public class IdealHighPass_ extends PlugInFrame implements ActionListener {
 			return;
 		}
 		instance = this;
-		IJ.register(LowPass_.class);
+		IJ.register(IdealHighPass_.class);
 
 		setLayout(new FlowLayout());
 		panel = new Panel();
